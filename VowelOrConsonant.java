@@ -1,30 +1,3 @@
-
-/*import java.util.Scanner;
-
-public class VowelOrConsonant{
-public static void main(String args[]){
-Scanner scan = new Scanner(System.in);
-
-System.out.println("Nidhi Sharma");
-System.out.println("24CSU140");
-
-
-System.out.print("Enter the Alphabet: ");
-char input=scan.next().toLowerCase().charAt(0);
-
-if((input >= 'a' && input <= 'z')){
-if(input=='a' || input=='e' || input=='i' || input=='o' || input=='u'){
-  System.out.println("The given Alphabet is a Vowel!");
-  }else{
-        System.out.println("The given Alphabet is a Consonant!");
-       }
-}else{
-    System.out.println("Invalid Input!");
-}
-    }
-}*/
-
-
 import java.util.Scanner;
 
 public class VowelOrConsonant {
@@ -49,3 +22,9 @@ String input = scan.nextLine();
         }
     }
 }
+
+
+
+
+
+
