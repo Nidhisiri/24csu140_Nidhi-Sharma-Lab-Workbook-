@@ -1,0 +1,19 @@
+public class ExceptionExample{
+    public static void main(String[] args){
+
+      System.out.println("Nidhi Sharma");
+      System.out.println("24CSU140");
+
+        try{
+           throw new Exception("This is an exception message");
+        } 
+        catch(Exception e){
+           System.out.println("Caught Exception: " + e.getMessage());
+        } 
+        finally {
+           System.out.println("Finally block executed.");
+        }
+    }
+}
+  
+
